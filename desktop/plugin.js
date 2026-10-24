@@ -229,7 +229,7 @@ function ago(ts) {
 // ── pieces ──────────────────────────────────────────────────────────────────
 // Card look follows the Skills Library page: fixed header, its own scroll area, a grid of flash cards.
 const CSS = `
-.hin{height:100%;display:flex;flex-direction:column;overflow:hidden;min-height:0;container-type:inline-size;color:var(--ui-text-primary,#eeedf2);background:var(--background,#141419);font:14px/1.55 system-ui,sans-serif;box-sizing:border-box}
+.hin{--ui-text-primary:var(--foreground,#eeedf2);--ui-text-secondary:color-mix(in srgb,var(--foreground,#eeedf2) 72%,var(--muted-foreground,#a6a4b0));--ui-text-tertiary:color-mix(in srgb,var(--foreground,#eeedf2) 58%,var(--muted-foreground,#a6a4b0));--ui-text-quaternary:color-mix(in srgb,var(--muted-foreground,#a6a4b0) 70%,transparent);--ui-stroke-primary:var(--border,#64616f);--ui-stroke-tertiary:color-mix(in srgb,var(--border,#34343b) 70%,transparent);--ui-stroke-quaternary:color-mix(in srgb,var(--border,#34343b) 50%,transparent);--ui-bg-quaternary:color-mix(in srgb,var(--muted-foreground,#24242b) 15%,transparent);--ui-bg-tertiary:color-mix(in srgb,var(--muted-foreground,#0d1117) 12%,transparent);--chrome-action-hover:color-mix(in srgb,var(--muted-foreground,#303038) 18%,transparent);height:100%;display:flex;flex-direction:column;overflow:hidden;min-height:0;container-type:inline-size;color:var(--ui-text-primary,#eeedf2);background:var(--background,#141419);font:14px/1.55 system-ui,sans-serif;box-sizing:border-box}
 .hin *{box-sizing:border-box}
 .hin .head{flex-shrink:0;display:flex;align-items:center;gap:14px;flex-wrap:wrap;padding:24px clamp(20px,3vw,40px) 14px;border-bottom:1px solid var(--ui-stroke-tertiary,#34343b)}
 .hin h1{font-size:22px;letter-spacing:-.5px;font-weight:600;margin:0}
