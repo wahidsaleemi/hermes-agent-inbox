@@ -247,7 +247,7 @@ const CSS = `
 .hin .lane-title span{font-size:11.5px;color:var(--ui-text-quaternary,#6e7681)}
 .hin .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,210px),1fr));gap:10px}
 @container (min-width:1500px){.hin .grid{grid-template-columns:repeat(6,minmax(0,1fr))}}
-.hin .card{position:relative;display:flex;flex-direction:column;min-width:0;height:116px;padding:8px 10px 6px;border-radius:8px;border:1px solid var(--ui-stroke-quaternary,#2c2b34);border-top:2px solid color-mix(in srgb,var(--a) 65%,var(--card,#1c1c23));background:linear-gradient(155deg,color-mix(in srgb,var(--a) 8%,var(--card,#1c1c23)),var(--card,#1c1c23) 75%);box-shadow:0 3px 10px #0000000a;transition:border-color .15s,transform .15s}
+.hin .card{position:relative;display:flex;flex-direction:column;min-width:0;height:116px;padding:8px 10px 6px;border-radius:8px;border:1px solid var(--ui-stroke-quaternary,#2c2b34);border-top:2px solid color-mix(in srgb,var(--a) 65%,var(--card,var(--background,#141419)));background:linear-gradient(155deg,color-mix(in srgb,var(--a) 8%,var(--card,var(--background,#141419))),var(--card,var(--background,#141419)) 75%);box-shadow:0 3px 10px #0000000a;transition:border-color .15s,transform .15s}
 .hin .card:hover{border-color:var(--ui-stroke-primary,#64616f);transform:translateY(-1px)}
 .hin .card-head{display:flex;gap:8px;align-items:flex-start;min-width:0}
 .hin .icon{display:grid;place-items:center;flex-shrink:0;width:22px;height:22px;border-radius:5px;color:var(--a);background:color-mix(in srgb,var(--a) 13%,transparent);font-size:13px}.hin .icon .codicon{font-size:13px}
